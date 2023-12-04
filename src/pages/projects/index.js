@@ -1,7 +1,14 @@
+import Header from "../../components/header"
+
 const Projects = () => {
+   const headerText = {
+      h1: 'MY PROJECTS',
+      p: 'MADE WITH LOVE'
+   }
+
    return (
       <div>
-         Projects
+         <Header headerText={headerText} />
       </div>
    )
 }

@@ -1,7 +1,15 @@
+import Header from "../../components/header"
+
 const Home = () => {
+
+   const headerText = {
+      h1: 'GIO JIOSHVILI',
+      p: 'WEB-DEVELOPER'
+   }
+
    return (
       <div>
-         Home
+         <Header headerText={headerText} />
       </div>
    )
 }
