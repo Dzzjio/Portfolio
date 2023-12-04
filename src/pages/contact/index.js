@@ -1,3 +1,4 @@
+import Footer from "../../components/footer"
 import Header from "../../components/header"
 
 const Contact = () => {
@@ -9,6 +10,7 @@ const Contact = () => {
    return (
       <div>
          <Header headerText={headerText} />
+         <Footer />
       </div>
    )
 }

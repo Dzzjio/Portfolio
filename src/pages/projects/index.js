@@ -1,3 +1,4 @@
+import Footer from "../../components/footer"
 import Header from "../../components/header"
 
 const Projects = () => {
@@ -9,6 +10,7 @@ const Projects = () => {
    return (
       <div>
          <Header headerText={headerText} />
+         <Footer />
       </div>
    )
 }

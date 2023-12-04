@@ -1,3 +1,4 @@
+import Footer from "../../components/footer"
 import Header from "../../components/header"
 
 const About = () => {
@@ -9,6 +10,7 @@ const About = () => {
    return (
       <div>
          <Header headerText={headerText} />
+         <Footer />
       </div>
    )
 }

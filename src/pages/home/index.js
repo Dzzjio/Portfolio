@@ -9,6 +9,7 @@ import figma from '../../img/figma.png'
 import npm from '../../img/npm.png'
 import git from '../../img/git.png'
 import vsCode from '../../img/vs_code.png'
+import Footer from "../../components/footer";
 
 const Home = () => {
   const headerText = {
@@ -60,7 +61,9 @@ const Home = () => {
 
       </div>
 
-    </div>
+   <Footer />
+
+   </div>
   );
 };
 
