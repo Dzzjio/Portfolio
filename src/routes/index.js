@@ -2,6 +2,7 @@ import Home from "../pages/home";
 import Projects from "../pages/projects";
 import About from "../pages/about";
 import Contact from "../pages/contact";
+import Menu from "../pages/menu";
 
 export const routes = [
     {
@@ -20,4 +21,8 @@ export const routes = [
         path: "/contact",
         element: <Contact />,
     },
+    {
+        path: "/menu",
+        element: <Menu />,
+    }
 ]
