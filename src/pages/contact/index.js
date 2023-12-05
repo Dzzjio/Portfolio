@@ -16,7 +16,7 @@ const Contact = () => {
          <div className='px-[37px] lg:px-[300px] mb-10'>
             <h2 className="w-180 sm:w-173 text-2xl font-bold mt-10 mb-4">Contact me</h2>
             
-            <div className="lg:flex justify-between gap-10">
+            <div className="lg:flex gap-10">
                <div className="mb-4">
                   <label htmlFor="name" className="mb-3 block text-sm font-bold text-gray-700">Name</label>
                   <input type="text" id="name" placeholder='Your Name' className="border-b-2 min-w-[298px] border-black"/>
