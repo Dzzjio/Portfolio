@@ -10,12 +10,18 @@ import npm from '../../img/npm.png'
 import git from '../../img/git.png'
 import vsCode from '../../img/vs_code.png'
 import Footer from "../../components/footer";
+import Card from "../../components/card";
+import Button from "../../components/button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const headerText = {
     h1: "GIO JIOSHVILI",
     p: "WEB-DEVELOPER",
   };
+
+  const ProjectsText = 'All Projects'
+  const contactText = 'Contact Me'
 
   return (
     <div>
@@ -59,6 +65,17 @@ const Home = () => {
             </div>
          </div>
 
+      </div>
+
+      <div className="px-[37px] flex flex-col gap-10 sm:flex-row sm:justify-evenly pb-14">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+
+      <div className="flex flex-col sm:flex-row sm:justify-evenly mr-[37px]">
+        <Link to='/projects'><Button text={ProjectsText}/></Link>
+        <Link to='/contact'><Button text={contactText}/></Link>
       </div>
 
    <Footer />
