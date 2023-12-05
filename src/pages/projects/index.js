@@ -22,7 +22,7 @@ const Projects = () => {
             <Card />
             <Card />
          </div>
-            <div className="mb-[58px] sm:mb-[80px] mx-auto">
+            <div className="mb-[58px] sm:mb-[80px] mx-auto sm:text-center">
                <Link to='/contact'><Button text={contactText}/></Link>
             </div>
          <Footer />
